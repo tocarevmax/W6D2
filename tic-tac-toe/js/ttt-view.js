@@ -2,8 +2,6 @@ class View {
   constructor(game, $el) {
     this.game = game;
     this.$el = $el;
-    console.log(game);
-    console.log($el);
     let $ul = this.setupBoard();
     $el.append($ul);
     this.bindEvents();

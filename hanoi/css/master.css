@@ -1,0 +1,50 @@
+body {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.hanoi {
+  display: flex;
+  width: 600px;
+  justify-content: space-between;
+}
+
+.hanoi > * {
+  display: flex;
+
+}
+
+ul {
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+  width: 30%;
+  height: 200px;
+  margin: 10px;
+  border-bottom: 10px solid black;
+  padding: 0;
+}
+
+li {
+  margin-top: 10px;
+  width: 180px;
+  height: 50px;
+  background-color: red;
+  list-style: none;
+  border: 1px solid black;
+  border-radius: 25px;
+}
+
+.disk-0 {
+  width: 60px;
+}
+
+.disk-1 {
+  width: 120px;
+}
+
+.disk-2 {
+  width: 180px;
+}
