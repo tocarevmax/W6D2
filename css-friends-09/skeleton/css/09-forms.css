@@ -1,0 +1,60 @@
+/* PHASE 9: Forms */
+
+  /*top object*/
+.content-main{
+  display: flex;
+}
+
+.form {
+  display: flex;
+  /*justify-content: space-between;*/
+  /*flex-direction: column;*/
+  /*width: 500px;*/
+}
+
+.form > * {
+  /*width: inherit;*/
+}
+
+.form-thumb {
+  display: flex;
+  margin-right: 15px;
+}
+
+.form-thumb img {
+  width: 58px;
+}
+
+.form-fieldset {
+  display: flex;
+  width: 500px;
+  height: 353px;
+  /*flex-direction: column;*/
+  background-color: #eee;
+  border: 1px solid #ccc;
+}
+
+.form-textarea{
+  /*width: 500px;*/
+}
+
+
+.input {
+  display: flex;
+  flex-direction: column;
+  /*width: 500px;*/
+}
+
+.input label > *  {
+  width: 100%;
+  /*background: red;*/
+}
+
+.input label {
+  font-weight: 700;
+  margin: 20px;
+}
+
+.input input {
+  font-weight: normal;
+}
